@@ -30,7 +30,7 @@ export default function Step4() {
   }, []);
 
   function mountShowData() {
-    let obj = {}
+    let obj = { }
     if(typePlan && additional) {
       obj = {...plansYearly, plan: '(Yearly)'}
       setData(obj)
